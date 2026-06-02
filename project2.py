@@ -1,7 +1,7 @@
 import random
 choose=["rock","papper","sicor"]
-game=random.choice(choose)
 chance=int(input("enter how many chance you like :"))
+game=random.choice(choose)
 for i in range(chance):
     pick=input("enter your rock ,papper ,sicor :")
     if pick == game:
